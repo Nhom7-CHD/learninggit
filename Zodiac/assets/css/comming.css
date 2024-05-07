@@ -1,0 +1,29 @@
+:root {
+
+}
+
+p {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+  }
+
+  .comming__logo {
+    text-align: center;
+  }
+
+  .comming__logo-img {
+    width: 50%;
+  }
+
+  .comming__text {
+    font-size: 48px;
+    color: #57ccc3;
+    text-align: center;
+    width: 100%;
+  }
+
+  #count {
+    font-size: 42px;
+    color: #57ccc3;
+  }

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap');
+html,body {
+    height: 100%;
+    /* color: #; */
+}
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+    background: #fff;
+}
+.alert {
+    border-radius: 0;
+}
+.btn {
+    padding: 12px 15px;
+    border-radius: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.header{
+    align-items: center !important;
+    display: flex;
+    flex-direction: column!important;
+    justify-content: center !important;
+    background-image: url(/assets/img/background2.jpg);
+    height: 110%;
+    width: 100%;
+    background-size: 100%;
+}
+.header-form{
+    /* background-image: url(/assets/img/background2.jpg);
+    height: 110%;
+    width: 100%;
+    background-size: 100%; */
+}
+.header-form-type{
+    /* background-image: url(/assets/img/background2.jpg);
+    height: 110%;
+    width: 100%;
+    background-size: 100%; */
+}
+.header-form-signup{
+    
+}
+.header-logo{
+
+}
+.header-logo-img{
+
+}
+.header-form-modal{
+    box-shadow: 0 0 35px rgb(0 0 0 / 10%);
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+}
+.header-form-text{
+    text-align: center;
+}
+.header-form-text-title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.header-form-nav{
+    text-align: center;
+    margin: 16px 0;
+}
+.header-form-input-call{
+
+}
+.header-form-input-label{
+    font-weight: 400;
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+.header-form-input-control{
+    padding: 12px 15px;
+    font-size: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+.header-form-input-control:focus {
+    box-shadow: none;
+}
+.header-form-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+    font-size: 30px;
+    width: 100%;
+}
+.small{
+   font-size:2rem;
+   padding: 0 36px;
+}
+.header-form-button .btn{
+    font-size: 20px;
+}
+.small:hover{
+    color: #56cdc2;
+}
+.header-form-container-social:first-child{
+    margin-right: 36px;
+}
+.header-container-social-icon{
+    margin: 0 6px;
+}
+.icon-google{
+        background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+        font-size: 25px;
+}
+.icon-facebook{
+        color: #3b5998;
+        background-image: linear-gradient( to bottom, transparent 20%, white 20%, white 93%, transparent 93% );
+        background-size: 55%;
+        background-position: 70% 0;
+        background-repeat: no-repeat;
+        font-size: 25px;
+}

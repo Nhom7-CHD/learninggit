@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(/assets/img/background1.jpg);
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+  }
+  .medicine-dosage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+  }
+  .btn {
+    width: 340px;
+    height: 50px;
+    background-color: #3ca7ee;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #189ef8;
+  }
+  .v1 input{
+    width: 520px;
+    height: 45px;
+  }
+  .same_row{
+    display: flex;
+    justify-content: center;
+  }
+  .same_row_in{
+    margin: 10px;
+    
+  }
+  .same_row_in input{
+    width: 400px;
+    height: 80px;
+  }
+  .input-box{
+    color: #fff;
+    background-color: #DDDDDD;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    color: #000;
+    font-size: 20px;
+    margin-left: 16px;
+  }
+  .input-box:focus{
+    border-bottom: 3px solid var(--primary-color);
+  }
+  .btn1{
+    width: 350px;
+    height: 65px;
+    margin-top: 20px;
+    background-color: var(--primary-color);
+    border:none;
+    color: #fff;
+    transition: all 0.3s ease-in;
+    border-radius: 2px;
+    margin-top: 36px;
+    font-size: 25px;
+  }
+  .form_ctrl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+ 
+  .btn1:hover{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .title{
+    margin-bottom: 36px;
+    font: 600 3vw system-ui;;
+    color: white;
+  --shadow-color: 286deg 36% 56%;
+  --shadow-elevation-low: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.34),
+    0.4px 0.8px 1px hsl(var(--shadow-color) / 0.34),
+    1px 2px 2.5px hsl(var(--shadow-color) / 0.34);
+  --shadow-elevation-medium: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.36),
+    0.8px 1.6px 2px hsl(var(--shadow-color) / 0.36),
+    2.1px 4.1px 5.2px hsl(var(--shadow-color) / 0.36),
+    5px 10px 12.6px hsl(var(--shadow-color) / 0.36);
+  --shadow-elevation-high: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.34),
+    1.5px 2.9px 3.7px hsl(var(--shadow-color) / 0.34),
+    2.7px 5.4px 6.8px hsl(var(--shadow-color) / 0.34),
+    4.5px 8.9px 11.2px hsl(var(--shadow-color) / 0.34),
+    7.1px 14.3px 18px hsl(var(--shadow-color) / 0.34),
+    11.2px 22.3px 28.1px hsl(var(--shadow-color) / 0.34),
+    17px 33.9px 42.7px hsl(var(--shadow-color) / 0.34),
+    25px 50px 62.9px hsl(var(--shadow-color) / 0.34);
+     margin-top: 0 !important;
+  text-shadow: var(--shadow-elevation-medium);
+  text-shadow: var(--shadow-elevation-high);
+}
+.logo-img{
+  margin-right: 36px;
+}

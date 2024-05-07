@@ -1,0 +1,55 @@
+.container{
+    background-image: url(/assets/img/background2.jpg);
+    background-size: 200%;
+   
+}
+.container-content{
+    font-size: 25px;
+}
+.container-title{
+    text-align: center;
+    margin: 20px 36px 36px;
+}
+.container-add{
+    font-weight: 700;
+    font-size: 26px;
+    margin: 20px 0;
+}
+.form-label{
+    font-weight: 400;
+}
+.form-control{
+    font-size: 20px;
+    font-weight: 300;
+}
+.container-search{
+    margin-bottom: 20px;
+    margin-left: 6px;
+}
+.container-input{
+    box-sizing: border-box;
+    /* border: 1px; */
+    /* font-size: 18px; */
+}
+.clone-nav{
+    font-weight: 500;
+}
+.clone-elemnt{
+    font-weight: 300;
+    font-size: 22px;
+    color: #333;
+}
+.btn-add{
+    margin-top: 16px;
+}
+.container-btn{
+    font-size: 25px;
+    margin: 16px 36px;
+    float: right;
+    background-color: #57ccc3;
+    color: #fff;
+}
+.container-btn:hover{
+    opacity: 0.9;
+    color: rgb(240, 233, 233);
+}

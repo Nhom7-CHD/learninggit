@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primary-color: #57CCC3;
+    --primary1-color:black;
+    --button-color:#DD0000;
+}
+
+.pl-40 {
+    padding-left: 40px;
+}

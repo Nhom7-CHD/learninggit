@@ -1,0 +1,288 @@
+/* FOOTER BEGIN */
+.footer {
+    background-color: #26292d;
+    color: white;
+    padding: 30px 0 70px 0;
+}
+
+.footer__logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footer__logo-img {
+    width: 200px;
+    height: 100px;
+}
+
+.footer__heading{
+    color: white;
+    font-size: 3.8rem;
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.footer__heading::after {
+    content: "";
+    height: 3px;
+    width: 80px;
+    position: absolute;
+    background-color: #1F3D9D;
+    top: 100%;
+    left: 0px;
+}
+
+
+.footer__contact,
+.footer__hour-list,
+.footer__company-list {
+    list-style: none;
+    color: white;
+    margin-left: -20px;
+}
+
+.footer__contact-item,
+.footer__hour-item,
+.footer__company-item {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.footer__contact-item-phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__contact-item a {
+    text-decoration: none;
+    color:white;
+}
+
+.footer__icon {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-right: 20px;
+    margin-top: -12px;
+}
+
+.footer__phone,
+.footer__hour-hour {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.footer__phone:hover {
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.footer__text,
+.footer__hour-day,
+.footer__company-link {
+    font-size: 1.6rem;
+}
+
+.footer__text-hover {
+    font-weight: 500;
+}
+
+.footer__text-hover:hover {
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.footer__hour-list {
+
+}
+
+.footer__hour-item {
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.footer__sub {
+    list-style: none;
+    color: white;
+}
+
+.footer__input {
+    position: relative;
+}
+
+.footer__input-email {
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 42px;
+    padding: 10px 45px 10px 12px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+}
+
+.footer__input-btn {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    border-radius: 8px;
+    background-color: #f22283;
+    outline: none;
+    border: none;
+}
+
+.footer__input-icon {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.footer__sub-link {
+    margin-left: -27px;
+    margin-top: 22px;
+    list-style: none;
+    display: flex;
+    width: 90px;
+    justify-content: space-between;
+}
+
+.footer__sub-icon {
+    font-size: 2rem;
+}
+
+.footer__sub-item-link {
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer__sub-item-link:hover {
+    color: var(--primary-color);
+}
+
+.footer__company-item {
+
+}
+
+.footer__company-link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__company-link:hover {
+    color: var(--primary-color);
+}
+
+
+/* FOOTER END */
+/* control bmi form */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#calc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #fff;
+    
+}
+#calc h1{
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+#num1 ,#num2{
+    background-color: #DDDDDD;
+    width: 250px;
+    height: 45px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 0px solid var(--primary-color);
+}
+#num1:focus ,#num2:focus{
+    border: 1px solid var(--primary-color);
+}
+#btn{
+    width: 125px;
+    height: 50px;
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    border-color:var(--primary-color) ;
+    background-color: var(--primary-color);
+    transition: 1s;
+    
+}
+#btn:hover{
+    color: var(--primary-color);
+    background-color: #fff;
+    border: 1px solid var(--primary-color);
+}
+#result{
+    
+}
+.total h4{
+    margin: 20px 20px 0 0px;
+    
+    
+}
+.total_wh{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+.total_wh h4{
+   overflow: hidden;
+}
+.total{
+    display: flex;
+    justify-content: center;
+   
+}
+.table_bmi{
+    
+    display: flex;
+    max-width: 700px;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 20px 0 30px 0;
+    height: 400px;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.list__newsrecomend{
+    padding: 30px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list__newsrecomend h1{
+    margin-bottom: 40px;
+}
+.mask{
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/banner1.jpg');
+
+}
+.message{
+    height: 30px;
+}
+#gender{
+    display: flex;
+    justify-content: center;
+}
+#gender > div{
+    margin: 10px 20px;
+}
